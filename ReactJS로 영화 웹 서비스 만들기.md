@@ -64,7 +64,11 @@ japan guy
 
  map은 array를 취하고 우리가 정확히 원하는 array를 반환해
 
+
+
 ### #2.3 map Recap
+
+​	map은 각각 item 별로 funtion을 호출해
 
 ### #2.4 Protection with PropTypes
 
