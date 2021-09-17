@@ -87,3 +87,37 @@ japan guy
 ### #2.4 Protection with PropTypes
 
 ​	항상 점검할 필요가 있어, father componet로 부터 전달받은props가 우리가 예상한 props인지
+
+
+
+## #3 State
+
+### #3.0 Class Components and State
+
+​	react componet는 어떻게 동작할까?
+
+​	**class react component**는 return을 가지고 있지 않아, function이 아니기 때문이야, 보다시피 **render method**를 가지고 있다
+
+​	class vs funtion
+
+​	funtion component는 function이고 뭔가를 retunn해 그리고 screen에 표시돼, 
+
+​	class component는 class야 하지만 react component로 부터 확장되고 screen에 표시돼 너는 그걸 render method 안에 넣어야만 해 
+
+​	react는 자동적으로 너의 class component의 render method를 실행해
+
+​	funtion component는 쉬웠는데, 왜 class component에 대해 이야기 해야하는거야?
+
+​	class component가 가진 우리가 원하는 state라고 불리는 녀석 때문
+
+​	state는 object이고 component의 data를 넣을 공간이 있고 이 데이터는 변해
+
+​	react에서는 자동적으로 주어진 onClick을 가지고 있어 이것은 react masic이다
+
+​	
+
+### #3.1 All you need to know about State
+
+### #3.2 Component Life Cycle
+
+### #3.3 Planning the Movie Component
