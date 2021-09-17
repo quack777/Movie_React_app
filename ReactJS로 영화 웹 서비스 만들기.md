@@ -70,5 +70,20 @@ japan guy
 
 ​	map은 각각 item 별로 funtion을 호출해
 
+​	각각 list내의 child는 unique한 key prop을 가져야 한다
+
+​	이 말은 모든 react의 element들은 유일해야하고
+
+​	너가 이들을 list 안으로 집어넣을때, 이녀석들은 유일성을 잃어버려
+
+​	다시 한 번 말하면, react의 모든 element들은 다르게 보일 필요가 있어
+
+​	image element는 alt prop이 반드시 있어야 함
+
+​	우리가 원하는 props이 우리가 갖고 있는 props인지. 체크하는 방법이 필요
+
+
+
 ### #2.4 Protection with PropTypes
 
+​	항상 점검할 필요가 있어, father componet로 부터 전달받은props가 우리가 예상한 props인지
