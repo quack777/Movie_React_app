@@ -130,4 +130,27 @@ japan guy
 
 ### #3.2 Component Life Cycle
 
+​	life cycle method는 기본적으로 react가 component를 생성하는 그리고 없애는 방법이야
+
+
+
 ### #3.3 Planning the Movie Component
+
+​	
+
+## #4 Making the movie
+
+### #4.0 Fetching Movies from API
+
+​	axios는 마치 fetch위에 있는 작은 layer야
+
+​	async await을 하는 것은 우리가 기본적으로 javaScript에게 getMovies function에게 조금 시간이 필요하고 우리는 그걸 기다려야만 한다는 것을 말하는거야
+
+
+
+### #4.1 Rendering the Movies
+
+​	
+
+### #4.2 Styling the Movies
+
