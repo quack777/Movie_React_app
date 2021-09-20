@@ -100,7 +100,7 @@ japan guy
 
 ​	class vs funtion
 
-​	funtion component는 function이고 뭔가를 retunn해 그리고 screen에 표시돼, 
+​	funtion component는 function이고 뭔가를 return해 그리고 screen에 표시돼, 
 
 ​	class component는 class야 하지만 react component로 부터 확장되고 screen에 표시돼 너는 그걸 render method 안에 넣어야만 해 
 
@@ -110,13 +110,23 @@ japan guy
 
 ​	class component가 가진 우리가 원하는 state라고 불리는 녀석 때문
 
-​	state는 object이고 component의 data를 넣을 공간이 있고 이 데이터는 변해
+​	state는 object이고 component의 data를 넣을 공간이 있고 이 데이터는 **변해**
 
 ​	react에서는 자동적으로 주어진 onClick을 가지고 있어 이것은 react masic이다
 
 ​	
 
 ### #3.1 All you need to know about State
+
+​	만약에 우리가 setState funtion을  호출하면, react는 매우 똑똑해서 우리가 언제 setState를 호출할 지를 알고 또한 내가 view를 refresh하길 원하는걸 알고 render function을 refresh하길 원하는걸 알아
+
+​	만역 너가 setState를 호출하면 react는 state를 refresh하고 또한 render function을 호출할거야
+
+​	우리가 setState를 사용하지 않으면 새 state와 함께 render funtion이 호출되지 않을거야
+
+​	매 순간 너가 set State를 호출할 때 마다 react는 새로운 state와 함께 render function을 호출할거야
+
+
 
 ### #3.2 Component Life Cycle
 
