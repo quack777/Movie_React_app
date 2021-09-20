@@ -150,7 +150,9 @@ japan guy
 
 ### #4.1 Rendering the Movies
 
-​	
+​	movies component는 state를 필요로 하지 않아 그래서 만약에 component가 state가 필요 없을 경우에는 이게 class component가 될 필요는 없어
+
+
 
 ### #4.2 Styling the Movies
 
