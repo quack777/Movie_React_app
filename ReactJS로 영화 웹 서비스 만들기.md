@@ -191,6 +191,12 @@ japan guy
 
 ### #6.1 Building the Router 
 
+​	exact={true} 이면 오직 그 url일때만 렌더링 해줘 
+
+​	exact는 이거 아니면 렌더링 안한다는 뜻
+
+
+
 ### #6.2 Building the Navigation
 
 ### #6.3 Sharing Props Between Routes
