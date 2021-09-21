@@ -156,3 +156,27 @@ japan guy
 
 ### #4.2 Styling the Movies
 
+### #4.3 Adding Genres
+
+### #4.4 Styles Timelapse
+
+### #4.5 Cutting the summary
+
+
+
+## #5 Conclusions
+
+### #5.0 Deploying to Github Pages
+
+​	1.npm i gh-pages
+​	2.package.json에 homepage 추가하기
+​	3.scripts에
+​	▷"deploy" : "gh-pages -d build"
+​	▷"predeploy" : "npm run build"
+​	→deploy를 호출하면 먼저 호출된다
+​	4.npm run deploy
+​	★Published
+
+### #5.1 Are we done?
+
+​	
