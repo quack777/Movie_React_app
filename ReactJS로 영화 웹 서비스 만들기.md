@@ -180,3 +180,19 @@ japan guy
 ### #5.1 Are we done?
 
 ​	
+
+## #6 Routing bonus
+
+### #6.0 Getting Ready for the Router
+
+​	네비게이션 -> react-router dom
+
+
+
+### #6.1 Building the Router 
+
+### #6.2 Building the Navigation
+
+### #6.3 Sharing Props Between Routes
+
+### #6.4 Redirecting 
