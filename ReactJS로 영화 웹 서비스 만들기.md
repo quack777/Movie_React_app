@@ -210,6 +210,8 @@ japan guy
 
 ​	모든걸 router안에서 할 필요는 없어 밑에 다 footer를 넣으면 돼. 당연히 fragment가 필요하겠지. 두개를 동시에 렌더링 하기 위해선, 넌 router 안에 모든걸 넣을 필요가 없어. 하지만 link를 쓰고 있다면 그 때는 router안에 넣어야 해 
 
+
+
 ### #6.3 Sharing Props Between Routes
 
 ### #6.4 Redirecting 
